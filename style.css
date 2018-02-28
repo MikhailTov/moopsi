@@ -1,0 +1,54 @@
+    .wrapper {
+        height: 720px;
+        width: 1150px;
+    }
+    .container{
+        width: 1150px;
+        margin: 0 auto;
+    }
+    .logo {
+        text-align: center;
+        
+    }
+    #header {
+        position: absolute; 
+        padding: 20px 0 20px 0;
+        width: 100%;
+
+    }
+    .nav {
+        text-align: center;
+    }
+    #wrapper {
+        height: 100vh;
+        background-image: url(image/blur.png), url(image/blur.png);
+        background-position-x:  560px, -180px ;
+        opacity: 0.7;  
+        background-position-y: -155px, 530px;
+        background-repeat: no-repeat, no-repeat;
+    }
+    ul.nav li {
+        font-size: 16px;
+        border: solid black;
+        border-radius: 2px;
+        display: inline-block;
+        width: 100px;
+        height: 25px;
+        margin-left: -.36em;
+        background: #efefef;
+    }
+
+    ul.nav li:hover {
+        background: #a5a3a3;
+    }
+    #footer {
+       
+        height: 100px;
+        width: 100vw;
+        margin: 0 auto;
+        background: #c9c8c8;
+        opacity: 0.5;
+        position: absolute;
+        bottom: 0;
+    }
+   
