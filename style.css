@@ -22,7 +22,7 @@
     #wrapper {
         height: 100vh;
         background-image: url(image/blur.png), url(image/blur.png);
-        background-position-x:  560px, -180px ;
+        background-position-x:  580px, -180px ;
         opacity: 0.7;  
         background-position-y: -155px, 530px;
         background-repeat: no-repeat, no-repeat;
@@ -36,6 +36,7 @@
         height: 25px;
         margin-left: -.36em;
         background: #efefef;
+        vertical-align: middle;
     }
 
     ul.nav li:hover {
