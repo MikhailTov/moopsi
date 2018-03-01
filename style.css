@@ -1,32 +1,31 @@
-    .wrapper {
-        height: 720px;
-        width: 1150px;
-    }
+html {
+    overflow: hidden;
+}
+#wrapper {
+    height: 100vh;
+    background-image: url(image/blur.png), url(image/blur.png);
+    background-position-x:  580px, -180px ;
+    background-position-y: -155px, 530px;
+    background-repeat: no-repeat, no-repeat;
+    
+}
     .container{
         width: 1150px;
         margin: 0 auto;
     }
     .logo {
-        text-align: center;
-        
+        text-align: center;  
     }
+
     #header {
-        position: absolute; 
         padding: 20px 0 20px 0;
         width: 100%;
-
     }
+
     .nav {
         text-align: center;
     }
-    #wrapper {
-        height: 100vh;
-        background-image: url(image/blur.png), url(image/blur.png);
-        background-position-x:  580px, -180px ;
-        opacity: 0.7;  
-        background-position-y: -155px, 530px;
-        background-repeat: no-repeat, no-repeat;
-    }
+
     ul.nav li {
         font-size: 16px;
         border: solid black;
@@ -34,7 +33,7 @@
         display: inline-block;
         width: 100px;
         height: 25px;
-        margin-left: -.36em;
+        margin-left: -.39em;
         background: #efefef;
         vertical-align: middle;
     }
@@ -42,8 +41,28 @@
     ul.nav li:hover {
         background: #a5a3a3;
     }
-    #footer {
-       
+
+    ul.nav li:nth-child(4){
+        width: auto;
+        height: auto;
+        background: none;
+        border:none;
+    } 
+    #hand {
+        position: absolute;
+        right: 150px;
+        top: 80px; 
+    }
+
+    .home {
+        text-align: center;
+    }
+    p {
+         width: 700px;
+         display: inline-   block;
+    }
+
+    #footer { 
         height: 100px;
         width: 100vw;
         margin: 0 auto;
