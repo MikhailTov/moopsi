@@ -59,16 +59,57 @@ html {
     }
     p {
          width: 700px;
-         display: inline-   block;
+         display: inline-block;
+    }
+    #footer{
+        position: absolute;
+        height: 100px;
+        width: 100vw;
+        bottom: 0;
     }
 
-    #footer { 
+    #transparency  { 
         height: 100px;
         width: 100vw;
         margin: 0 auto;
         background: #c9c8c8;
         opacity: 0.5;
         position: absolute;
-        bottom: 0;
+        
+       
     }
-   
+    #sprite{
+        position: absolute;
+        width: 250px;
+        height: 100px;
+        display: inline-block;    
+        text-align: center;   
+    }
+    [class^="icon"] {
+        font-family: "icomoon";
+        display: inline-block;
+        font-size: 35px; 
+        margin: 30px 5px; 
+    }
+    .icon-instagram::before {
+        content: "\e900";
+
+    }
+    .icon-pinterest::before {
+        content: "\e901";
+    }
+    .icon-facebook::before {
+        content: "\e902";
+    }
+    #adress{
+        /* position: absolute; */
+        width: 150px;
+        height: 100px;
+        display: inline-block;
+        margin-left:230px;
+        /* text-align: center; */
+        font-family: sans-serif;
+        font-size: 0.9em;
+        vertical-align: middle;
+        margin-top: 10px;
+    }
