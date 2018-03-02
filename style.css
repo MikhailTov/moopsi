@@ -61,6 +61,9 @@ html {
          width: 700px;
          display: inline-block;
     }
+    .carousel-inner img{
+        width: 100%;
+    }
     #footer{
         position: absolute;
         height: 100px;
@@ -102,7 +105,7 @@ html {
         content: "\e902";
     }
     #adress{
-        /* position: absolute; */
+        position: absolute;
         width: 150px;
         height: 100px;
         display: inline-block;
