@@ -3,9 +3,9 @@ html {
 }
 #wrapper {
     height: 100vh;
-    background-image: url(image/blur.png), url(image/blur.png);
-    background-position-x:  580px, -180px ;
-    background-position-y: -155px, 530px;
+    background-image: url(image/blur.png), url(image/blur.png)/* , url(image/hand.png) */;
+    background-position-x:  580px, -180px, 1450px; 
+    background-position-y: -155px, 530px, 70px;
     background-repeat: no-repeat, no-repeat;
     
 }
@@ -48,11 +48,12 @@ html {
         background: none;
         border:none;
     } 
-    #hand {
+    /* удалить если будем убирать руку */
+    /* #hand {
         position: absolute;
         right: 150px;
         top: 80px; 
-    }
+    } */
 
     .home {
         text-align: center;
@@ -61,8 +62,14 @@ html {
          width: 700px;
          display: inline-block;
     }
+
+    #control {
+        background-image: none;
+    }
     .carousel-inner img{
         width: 100%;
+
+
     }
     #footer{
         position: absolute;
