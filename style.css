@@ -1,13 +1,15 @@
-html {
-    overflow: hidden;
+
+html, body {
+    height: 100%;
 }
 #wrapper {
-    height: 100vh;
+    width: 100%;
+    min-height: 100%;
+    position: relative;
     background-image: url(image/blur.png), url(image/blur.png)/* , url(image/hand.png) */;
     background-position-x:  580px, -180px, 1450px; 
     background-position-y: -155px, 530px, 70px;
     background-repeat: no-repeat, no-repeat;
-    
 }
     .container{
         width: 1150px;
@@ -57,6 +59,7 @@ html {
 
     .home {
         text-align: center;
+        /* margin-top:80px */
     }
     p {
          width: 700px;
@@ -66,27 +69,22 @@ html {
     #control {
         background-image: none;
     }
-    .carousel-inner img{
-        width: 100%;
 
-
-    }
-    #footer{
+    #footer {
         position: absolute;
-        height: 100px;
-        width: 100vw;
+        left: 0;
         bottom: 0;
+        width: 100%;    
+        height: 100px;     
     }
 
     #transparency  { 
         height: 100px;
-        width: 100vw;
+        width: 100%;
         margin: 0 auto;
         background: #c9c8c8;
         opacity: 0.5;
-        position: absolute;
-        
-       
+        position: absolute;     
     }
     #sprite{
         position: absolute;
@@ -95,22 +93,37 @@ html {
         display: inline-block;    
         text-align: center;   
     }
+    [class^="icon"]:hover {
+        text-decoration:none;
+        /* color: rgb(195, 0, 255); */
+        }
     [class^="icon"] {
         font-family: "icomoon";
         display: inline-block;
         font-size: 35px; 
         margin: 30px 5px; 
+        color: #000;
     }
     .icon-instagram::before {
-        content: "\e900";
+        content: "\e900";  
+    }
 
+    a.icon-instagram:hover {
+        color: rgb(195, 0, 255);
     }
     .icon-pinterest::before {
         content: "\e901";
     }
+    a.icon-pinterest:hover {
+        color: rgb(185, 3, 79);
+    }
     .icon-facebook::before {
         content: "\e902";
     }
+    a.icon-facebook:hover {
+        color: rgb(70, 124, 224);
+    }
+
     #adress{
         position: absolute;
         width: 150px;
@@ -122,4 +135,5 @@ html {
         font-size: 0.9em;
         vertical-align: middle;
         margin-top: 10px;
+        color: #000;
     }
