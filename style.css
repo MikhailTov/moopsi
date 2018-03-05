@@ -154,4 +154,9 @@ html, body {
         width: 100%;
     }
 
+   .col-lg-2 {
+        border: none;
+        background: transparent;
+    }
+
 
