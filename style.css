@@ -171,9 +171,7 @@ html, body {
     .main {
         text-align: center;
     }
-    .inner{
-        padding: 20px;
-    } 
+ 
     .watercolor-patterns, .collage-patterns, .abstract-patterns  {
         background: rgba(26, 24, 24, 0.7);
         border-radius:10px;
@@ -195,5 +193,17 @@ html, body {
     .col-img-pat{
         padding: 10px 0 10px 0;
     }
+
+    /* page collage */
+    .row{
+        /* vertical-align: middle; */
+        list-style: height 200px;
+    }
+    .col-collage-centrd {
+        margin: 1em;
+       
+
+    }
+
 
 
