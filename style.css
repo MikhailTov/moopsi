@@ -66,7 +66,7 @@ html, body {
         text-align: center;
         /* margin-top:80px */
     }
-    p {
+    p#home {
          width: 700px;
          display: inline-block;
     }
@@ -98,17 +98,23 @@ html, body {
         display: inline-block;    
         text-align: center;   
     }
+
     [class^="icon"]:hover {
         text-decoration:none;
-        /* color: rgb(195, 0, 255); */
         }
+
+    [class^="icon"]:visited {
+        color: #000;
+        text-decoration:none;
+        -moz-text-decoration: none;
+        } 
+
     [class^="icon"] {
         font-family: "icomoon";
         display: inline-block;
         font-size: 35px; 
         margin: 30px 5px; 
         color: #000;
-        bla
     }
     .icon-instagram::before {
         content: "\e900";  
@@ -129,6 +135,7 @@ html, body {
     a.icon-facebook:hover {
         color: rgb(70, 124, 224);
     }
+
 
     #adress{
         position: absolute;
@@ -157,6 +164,36 @@ html, body {
    .col-lg-2 {
         border: none;
         background: transparent;
+    }
+
+
+    /* page-patterns` */
+    .main {
+        text-align: center;
+    }
+    .inner{
+        padding: 20px;
+    } 
+    .watercolor-patterns, .collage-patterns, .abstract-patterns  {
+        background: rgba(26, 24, 24, 0.7);
+        border-radius:10px;
+        color: #fff;
+        text-align: center;
+        margin: 10px; 
+        min-width: 350px;
+        max-width: 450px;
+        /* display: inline-block; */
+        /* text-align: center; */
+    }
+    .img-patterns{
+        margin-top: 2em;
+    }
+    /* pagepatterns-watercolors */
+    .img-patterns-tmp {
+        width: 100%;
+    }
+    .col-img-pat{
+        padding: 10px 0 10px 0;
     }
 
 
