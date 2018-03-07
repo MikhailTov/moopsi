@@ -201,9 +201,14 @@ html, body {
     }
     .col-collage-centrd {
         margin: 1em;
-       
-
     }
 
+    /* page shop */
+    img.tshirt{
+        margin-top:5em;
+    }
+    img.pillows{
+        margin-top:15em;
+    }
 
 
